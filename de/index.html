@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atme gesund — App zum Rauchstopp (7 Tage kostenlos)</title>
+<meta name="description" content="App zum Rauchstopp in Slowenisch, Englisch, Kroatisch, Italienisch und Deutsch: Zigaretten mit Gründen erfassen, Hinweise zu deinen Zeiten, Ziel −1 pro Tag und Nachtruhe. Kostenloser 7-Tage-Test für Android — ohne Karte und Abo.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Dihaj zdravo">
+<meta name="theme-color" content="#2B7CAB">
+<!-- TUKAJ PRILEPI vrstico <meta name="google-site-verification" ...> iz Google Search Console (samo v glavni index.html) -->
+<link rel="canonical" href="https://dihaj-zdravo.netlify.app/de/">
+<link rel="alternate" hreflang="sl" href="https://dihaj-zdravo.netlify.app/">
+<link rel="alternate" hreflang="en" href="https://dihaj-zdravo.netlify.app/en/">
+<link rel="alternate" hreflang="hr" href="https://dihaj-zdravo.netlify.app/hr/">
+<link rel="alternate" hreflang="it" href="https://dihaj-zdravo.netlify.app/it/">
+<link rel="alternate" hreflang="de" href="https://dihaj-zdravo.netlify.app/de/">
+<link rel="alternate" hreflang="x-default" href="https://dihaj-zdravo.netlify.app/en/">
+<link rel="icon" type="image/png" href="/ikona.png">
+<link rel="apple-touch-icon" href="/ikona.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dihaj zdravo">
+<meta property="og:title" content="Atme gesund — App zum Rauchstopp (7 Tage kostenlos)">
+<meta property="og:description" content="App zum Rauchstopp in Slowenisch, Englisch, Kroatisch, Italienisch und Deutsch: Zigaretten mit Gründen erfassen, Hinweise zu deinen Zeiten, Ziel −1 pro Tag und Nachtruhe. Kostenloser 7-Tage-Test für Android — ohne Karte und Abo.">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image" content="https://dihaj-zdravo.netlify.app/og-slika.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Atme gesund — App zum Rauchstopp (7 Tage kostenlos)">
+<meta property="og:url" content="https://dihaj-zdravo.netlify.app/de/">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="sl_SI">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="hr_HR">
+<meta property="og:locale:alternate" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Atme gesund — App zum Rauchstopp (7 Tage kostenlos)">
+<meta name="twitter:description" content="App zum Rauchstopp in Slowenisch, Englisch, Kroatisch, Italienisch und Deutsch: Zigaretten mit Gründen erfassen, Hinweise zu deinen Zeiten, Ziel −1 pro Tag und Nachtruhe. Kostenloser 7-Tage-Test für Android — ohne Karte und Abo.">
+<meta name="twitter:image" content="https://dihaj-zdravo.netlify.app/og-slika.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Atme gesund (7 Tage)",
+  "operatingSystem": "Android 8.0+",
+  "applicationCategory": "HealthApplication",
+  "applicationSubCategory": "Quit smoking",
+  "inLanguage": [
+    "sl",
+    "en",
+    "hr",
+    "it",
+    "de"
+  ],
+  "description": "App zum Rauchstopp in Slowenisch, Englisch, Kroatisch, Italienisch und Deutsch: Zigaretten mit Gründen erfassen, Hinweise zu deinen Zeiten, Ziel −1 pro Tag und Nachtruhe. Kostenloser 7-Tage-Test für Android — ohne Karte und Abo.",
+  "url": "https://dihaj-zdravo.netlify.app/de/",
+  "image": "https://dihaj-zdravo.netlify.app/og-slika.jpg",
+  "downloadUrl": "https://dihaj-zdravo.netlify.app/DihajZdravo-1.0-poskusna-7dni.apk",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "description": "kostenlose Testversion"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Dihaj zdravo",
+    "email": "dihaj.zdravo@gmail.com",
+    "url": "https://dihaj-zdravo.netlify.app/"
+  }
+}
+</script>
+<style>
+  :root{
+    --bg:#2B7CAB; --card:#FFFFFF; --panel:#1E5B81; --acc:#8FE9A8;
+    --mint:#2FA23C; --text:#FFFFFF; --dim:#EAF4FB; --low:#CFE6F4;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);
+       color:var(--text);font:16px/1.55 -apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:26px 20px 60px}
+  header{display:flex;align-items:center;gap:14px;justify-content:space-between;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand img{width:54px;height:54px;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.30)}
+  .brand b{font-size:18px;display:block;line-height:1.2;color:#fff}
+  .brand span{color:var(--low);font-size:13px}
+  .langs{display:flex;gap:8px}
+  .langs a{text-decoration:none;background:transparent;border:1px solid rgba(255,255,255,.40);color:var(--dim);border-radius:999px;
+    padding:7px 12px;font-size:13px;cursor:pointer;display:flex;align-items:center;gap:7px}
+  .langs a img{width:20px;height:14px;border-radius:2px}
+  .langs a.on{border-color:var(--acc);color:var(--acc);background:rgba(143,233,168,.14)}
+  h1{font-size:clamp(30px,7vw,46px);line-height:1.08;margin:34px 0 10px;letter-spacing:-.5px;color:#fff}
+  h1 em{font-style:normal;color:var(--acc)}
+  .lead{color:var(--dim);font-size:18px;margin:0 0 22px;max-width:56ch}
+  .cta{display:inline-flex;align-items:center;gap:12px;background:var(--mint);color:#fff;
+    font-weight:700;font-size:18px;padding:16px 26px;border-radius:16px;text-decoration:none;
+    box-shadow:0 10px 30px rgba(0,0,0,.28)}
+  .cta:hover{background:#248A33}
+  .small{color:var(--low);font-size:13px;margin:12px 0 0}
+  .note{margin-top:18px;border:1px solid rgba(255,255,255,.30);background:rgba(255,255,255,.08);
+    border-radius:14px;padding:14px 16px;color:var(--dim);font-size:14px}
+  .mail{margin:18px 0 0;border:1px solid rgba(143,233,168,.55);border-radius:14px;padding:13px 15px;
+    background:rgba(255,255,255,.08)}
+  .mail .tag2{display:inline-block;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--acc);border:1px solid rgba(143,233,168,.45);border-radius:999px;padding:2px 8px;margin-bottom:5px}
+  .mail > b{display:block;font-size:15.5px;margin:0 0 2px;color:#fff}
+  .mail p{margin:0 0 9px;color:var(--dim);font-size:12.5px;line-height:1.45;max-width:58ch}
+  .mail a{display:inline-block;background:var(--mint);color:#fff;font-weight:700;
+    font-size:clamp(14px,3.4vw,17px);padding:8px 14px;border-radius:10px;text-decoration:none;
+    word-break:break-all;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+  .mail a:hover{background:#248A33}
+  .mailFallback{font-size:13.5px;line-height:1.5;margin-top:10px}
+  .mailActions{display:flex;flex-wrap:wrap;gap:9px;margin-top:9px}
+  .mailFallback .mailCopy,
+  .mailFallback .gmailLink{display:inline-flex;align-items:center;justify-content:center;
+    background:var(--mint);color:#fff;border:1px solid var(--mint);border-radius:999px;
+    padding:9px 17px;font-weight:800;font-size:14px;text-decoration:none;white-space:nowrap;
+    cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.26)}
+  .mailFallback .mailCopy:hover,
+  .mailFallback .gmailLink:hover{background:#248A33;border-color:#248A33}
+  .mailPick{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;
+    padding:18px;background:rgba(6,24,36,.60)}
+  .mailPick[hidden]{display:none}
+  .mailPickBox{width:100%;max-width:370px;background:var(--panel);color:var(--text);
+    border:1px solid rgba(255,255,255,.28);border-radius:20px;padding:20px;
+    box-shadow:0 24px 60px rgba(0,0,0,.40)}
+  .mailPickBox b{display:block;font-size:17px;margin:0 0 6px;color:#fff}
+  .mailPickBox p{margin:0 0 14px;color:var(--dim);font-size:13px;line-height:1.5}
+  .mailPickList{display:grid;gap:8px}
+  .mailPickList a{display:block;background:var(--mint);color:#fff;font-weight:700;text-align:center;
+    text-decoration:none;border-radius:12px;padding:11px 14px;font-size:14.5px}
+  .mailPickList a:hover{background:#248A33}
+  .mailPickList a.other{background:transparent;border:1px solid rgba(255,255,255,.40);color:var(--dim);font-weight:600}
+  .mailPickList a.other:hover{background:rgba(255,255,255,.10)}
+  .mailPickClose{margin-top:12px;width:100%;background:transparent;border:1px solid rgba(255,255,255,.35);
+    color:var(--dim);border-radius:12px;padding:9px;font:inherit;font-size:13px;cursor:pointer}
+  .mailPickClose:hover{background:rgba(255,255,255,.08)}
+  .mailPickDone[hidden]{display:none}
+  .mailPickDone .adr{display:inline-block;margin:2px 0 8px;font-weight:800;color:#8FE9A8;
+    font-size:14.5px;word-break:break-all}
+  @keyframes mailPulse{0%,100%{box-shadow:0 0 0 0 rgba(255,200,87,0)}45%{box-shadow:0 0 0 7px rgba(255,200,87,.30)}}
+  .mailAltPulse{animation:mailPulse 1.1s ease-in-out 2;border-radius:12px}
+  .mailHint{margin:9px 0 0;color:var(--dim);font-size:12.5px;line-height:1.45}
+  .mailFallback{margin:7px 0 0;color:var(--low);font-size:12.5px;line-height:1.5}
+  .mailFallback button{background:transparent;border:1px solid rgba(143,233,168,.60);color:var(--acc);
+    border-radius:999px;padding:3px 10px;font:inherit;font-size:12.5px;cursor:pointer}
+  .mailFallback button:hover{background:rgba(143,233,168,.16)}
+  .mailFallback[hidden]{display:none}
+  .mailFallback .gmailLink{color:var(--acc);text-decoration:underline}
+  .footerMail{margin:12px 0 0;width:100%}
+  .install{margin:18px 0 0;border:1px solid rgba(255,255,255,.30);background:rgba(255,255,255,.08);border-radius:14px;padding:16px 16px 2px}
+  .install h2{font-size:18px;margin:0 0 14px;color:#fff}
+  .install ol.steps li{padding-bottom:12px;font-size:14.5px}
+  .install .only{color:var(--low);font-size:13px;margin:0 0 14px}
+  .shareP{color:var(--dim);font-size:15px;margin:0 0 4px;max-width:56ch}
+  .socials{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 0}
+  .soc{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;cursor:pointer;
+    background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.35);color:var(--acc);
+    transition:background .15s,color .15s,transform .1s;padding:0}
+  .soc:hover{background:var(--mint);color:#fff;transform:translateY(-1px)}
+  .soc svg{width:26px;height:26px;display:block}
+  .copied{margin:12px 0 0;font-size:14px;color:var(--acc);min-height:20px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:38px 0 0}
+  .card{box-shadow:0 4px 18px rgba(0,0,0,.18);background:var(--panel);border:1px solid rgba(255,255,255,.28);border-radius:18px;padding:18px}
+  .card .ico{font-size:22px}
+  .seo{color:var(--low);font-size:13px;max-width:72ch;margin:30px 0 0;line-height:1.6}
+  .card h3{margin:8px 0 6px;font-size:17px;color:#FFFFFF}
+  .card p{margin:0;color:#D9EAF4;font-size:14.5px}
+  h2{font-size:22px;margin:46px 0 14px;color:#fff}
+  .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .shots img{width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.30);display:block}
+  ol.steps{counter-reset:s;list-style:none;padding:0;margin:0}
+  ol.steps li{counter-increment:s;position:relative;padding:0 0 16px 46px;color:var(--dim)}
+  ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;
+    border-radius:50%;background:rgba(143,233,168,.16);border:1px solid rgba(143,233,168,.50);color:var(--acc);
+    display:grid;place-items:center;font-weight:700;font-size:14px}
+  ol.steps b{color:#fff}
+  details{border:1px solid rgba(255,255,255,.28);background:var(--panel);border-radius:14px;
+    padding:14px 16px;margin-bottom:10px}
+  details summary{cursor:pointer;font-weight:600;color:#FFFFFF}
+  details p{color:#D9EAF4;margin:10px 0 0;font-size:14.5px}
+  footer{margin-top:46px;border-top:1px solid rgba(255,255,255,.30);padding-top:18px;
+    color:var(--low);font-size:13.5px;display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between}
+  a{color:var(--acc)}
+  @media(max-width:560px){ .shots{grid-template-columns:1fr 1fr} .shots img:last-child{display:none} }
+
+  .act{max-width:290px;margin:4px auto 6px;border-radius:24px;border:6px solid #0F3A50;overflow:hidden;
+    background:linear-gradient(#3389B8,#2B7CAB);padding:20px 16px 18px;text-align:center;color:#F2FBF7;
+    box-shadow:0 10px 30px rgba(0,0,0,.30)}
+  .act img{width:56px;height:56px;border-radius:14px;display:block;margin:0 auto 6px}
+  .act .an{font-size:20px;font-weight:600;margin:0}
+  .act .as{font-size:12.5px;color:#EAF4FB;margin:4px 0 14px}
+  .act .al{font-size:11px;letter-spacing:.8px;color:rgba(255,255,255,.78)}
+  .act .id{display:inline-block;margin:6px 0 4px;padding:6px 12px;border:2px dashed #FFC857;border-radius:12px;
+    font:600 30px/1.1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:6px;color:#8FE9A8}
+  .act .ah{font-size:11.5px;color:rgba(255,255,255,.78);margin:4px 0 12px}
+  .act .af{border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:9px 10px;margin-top:8px;text-align:left;font-size:11.5px;color:#CFE6F4}
+  .callout{display:block;width:max-content;margin:-4px auto 6px;background:var(--mint);color:#fff;font-weight:700;font-size:13px;
+    padding:6px 12px;border-radius:999px}
+  .callout::before{content:"↑ "}
+  figure.actf{margin:6px 0 14px;text-align:center}
+  figure.actf figcaption{font-size:12.5px;color:var(--low);margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <img src="/ikona.png" alt="Dihaj zdravo">
+      <div>
+        <b>Atme gesund (7 Tage)</b>
+        <span>kostenlose Testversion</span>
+      </div>
+    </div>
+    <div class="langs" id="langs">
+      <a href="/" hreflang="sl" lang="sl" title="Slovenščina"><img src="/zastava_sl.png" alt="">SL</a>
+      <a href="/en/" hreflang="en" lang="en" title="English"><img src="/zastava_gb.png" alt="">EN</a>
+      <a href="/hr/" hreflang="hr" lang="hr" title="Hrvatski"><img src="/zastava_hr.png" alt="">HR</a>
+      <a href="/it/" hreflang="it" lang="it" title="Italiano"><img src="/zastava_it.png" alt="">IT</a>
+      <a href="/de/" hreflang="de" lang="de" title="Deutsch" class="on" aria-current="page"><img src="/zastava_de.png" alt="">DE</a>
+    </div>
+  </header>
+
+  <h1><em>7 Tage kostenlos.</em><br><span>Keine Karte, kein Abo.</span></h1>
+  <p class="lead">Probiere Atme gesund vollständig aus: Zigaretten erfassen, Hinweise zu deinen Zeiten, Ziel −1 pro Tag und Nachtruhe. Nach sieben Tagen endet der Test — ohne Kleingedrucktes.</p>
+
+  <a class="cta" href="/DihajZdravo-1.0-poskusna-7dni.apk" download data-goatcounter-click="prenos-apk-de" data-goatcounter-title="Klick: APK-Download (DE)">
+    <span>⬇</span><span>App herunterladen (APK)</span>
+  </a>
+  <p class="small">Android 8.0 oder neuer · 2,4 MB · kostenlos</p>
+
+  <div class="install" id="namestitev">
+    <h2>So installierst du (Android)</h2>
+    <ol class="steps">
+      <li>Tippe auf die Download-Schaltfläche. Warnt dein Handy oder Browser, dass die Datei schädlich sein könnte, tippe auf <b>„Trotzdem herunterladen“</b> (oder „Behalten“).</li>
+      <li>Öffne die heruntergeladene Datei (in der Benachrichtigung oder im Ordner „Downloads“).</li>
+      <li>Fragt dein Handy nach der Installation aus unbekannten Quellen, tippe auf <b>„Einstellungen“</b>, erlaube es für diesen Browser und gehe zurück.</li>
+      <li>Zeigt Google Play Protect eine Warnung, tippe auf <b>„Weitere Details“</b> und dann auf <b>„Trotzdem installieren“</b>.</li>
+      <li>Öffne die App. Die sieben Tage beginnen beim ersten Start.</li>
+      <li>Auf dem ersten Bildschirm der App siehst du deine <b>Geräte-ID</b> (z. B. K7F2QX). Schick sie an dihaj.zdravo@gmail.com — Aktivierungsschlüssel und Passwort schicken wir dir.</li>
+    </ol>
+    <figure class="actf"><div class="act"><img src="/ikona.png" alt=""><p class="an">Dihaj zdravo</p><p class="as">Für die Aktivierung brauche ich die ID dieses Geräts.</p><div class="al">GERÄTE-ID</div><div class="id">K7F2QX</div><span class="callout">Schick das</span><p class="ah">Schick diese ID an den Verwalter — damit bereitet er dir den Schlüssel vor.</p><div class="af">Aktivierungsschlüssel</div><div class="af">Passwort</div></div><figcaption>Beispiel für den Aktivierungsbildschirm (die ID ist ausgedacht).</figcaption></figure>
+
+    <p class="only">Nur für Android 8.0 oder neuer. Funktioniert nicht auf iPhone und Computer — öffne diese Seite auf einem Android-Handy.</p>
+  </div>
+
+  <div class="mail" id="narocilo">
+    <span class="tag2">Bestellung per E-Mail</span>
+    <b>Du kannst die App auch per E-Mail bestellen</b>
+    <p>Kannst du die Datei nicht laden? Schreib uns — wir senden dir die App und die Anleitung. Für die Aktivierung schick uns nur die <b>Geräte-ID</b>, die die App beim ersten Start zeigt — Aktivierungsschlüssel und Passwort schicken wir dir.</p>
+    <a id="mailLink" data-goatcounter-click="email-de" data-goatcounter-title="Klick: E-Mail (DE)" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." target="_blank" rel="noopener" data-mailto="mailto:dihaj.zdravo@gmail.com?subject=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&amp;body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." title="E-Mail öffnen und die Nachricht an dihaj.zdravo@gmail.com senden">dihaj.zdravo@gmail.com</a>
+    <p class="mailHint">Der Klick öffnet dein E-Mail-Programm (Gmail, Outlook, Hotmail …) mit fertiger Nachricht.</p>
+    <p class="mailFallback" id="mailFallback">Wenn es sich nicht öffnet:<span class="mailActions"><button type="button" class="mailCopy" id="mailCopy" data-copied="Adresse kopiert ✓">Adresse kopieren</button><a class="gmailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." target="_blank" rel="noopener">In Gmail öffnen</a></span></p>
+  </div>
+
+  <div class="note">Die App ist noch nicht bei Google Play, daher lädst du sie als Datei. Bei der Installation fragt Android nach der Erlaubnis, aus unbekannten Quellen zu installieren — erlaube das für den Browser, mit dem du geladen hast, und die Installation läuft weiter. Kein Konto, keine Daten verlassen das Telefon.</div>
+
+  <div class="grid">
+    <div class="card"><div class="ico">📝</div><h3>Phase 1 — Erfassung</h3><p>Jede Zigarette mit ihrem Grund, ohne Urteil. Daraus entsteht dein Zeitplan.</p></div>
+    <div class="card"><div class="ico">⏰</div><h3>Phase 2 — Aufhören</h3><p>Hinweise zu deinen Zeiten, Ziel jeden Tag eine Zigarette niedriger und ein Blick auf die Ersparnis.</p></div>
+    <div class="card"><div class="ico">🌙</div><h3>Nachtruhe</h3><p>Nachts gibt es die App nicht. Das Wochenende hat seinen eigenen, langsameren Rhythmus.</p></div>
+  </div>
+
+  <h2>So sieht sie aus</h2>
+  <div class="shots">
+    <img id="s1" src="/de-faza1.png" alt="Atme gesund (7 Tage) — So sieht sie aus 1" loading="lazy">
+    <img id="s2" src="/de-faza2.png" alt="Atme gesund (7 Tage) — So sieht sie aus 2" loading="lazy">
+    <img id="s3" src="/de-zdravje.png" alt="Atme gesund (7 Tage) — So sieht sie aus 3" loading="lazy">
+  </div>
+
+  <h2>So funktioniert der Test</h2>
+  <ol class="steps">
+    <li>Lade die Datei herunter und installiere sie (Installation aus unbekannten Quellen erlauben).</li>
+    <li>Beim ersten Start beginnen die sieben Tage — alle Funktionen sind offen.</li>
+    <li>Nach dem siebten Tag stoppt die App. Die Daten bleiben auf dem Telefon; zum Weitermachen schreibe an dihaj.zdravo@gmail.com.</li>
+  </ol>
+
+  <h2>Seite teilen</h2>
+  <p class="shareP">Schicke den Link an einen Freund — er öffnet sich in seiner Sprache.</p>
+  <div class="socials" id="socials">
+    <button class="soc" data-share="fb" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.6 21v-7.1h2.4l.4-2.8h-2.8V9.3c0-.8.2-1.4 1.4-1.4h1.5V5.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2H8v2.8h2.6V21h3z"/></svg></button>
+    <button class="soc" data-share="tt" aria-label="TikTok" title="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.3 3.4c.3 2.2 1.7 3.6 3.9 3.9v2.5c-1.4-.1-2.8-.5-3.9-1.3v7.6a5.1 5.1 0 1 1-5.1-5.1c.3 0 .6 0 .9.1v2.6a2.5 2.5 0 1 0 1.7 2.4V3.4h2.5z"/></svg></button>
+    <button class="soc" data-share="ig" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.6" y="3.6" width="16.8" height="16.8" rx="5"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.2" cy="6.9" r="1.15" fill="currentColor" stroke="none"/></svg></button>
+    <button class="soc" data-share="wa" aria-label="WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3.7a8.3 8.3 0 0 0-7.1 12.6L3.7 20.3l4.1-1.1A8.3 8.3 0 1 0 12 3.7z"/><path d="M9.1 8.2c-.3 0-.6.1-.8.3-.4.4-.7.9-.7 1.4 0 2.7 2.2 4.9 4.9 4.9.5 0 1-.3 1.4-.7.2-.2.3-.5.3-.8l-1.6-.7c-.2-.1-.4 0-.6.1l-.5.5c-.1.1-.3.1-.4 0-.8-.5-1.4-1.1-1.9-1.9-.1-.1-.1-.3 0-.4l.5-.5c.1-.2.2-.4.1-.6l-.7-1.6z" fill="currentColor" stroke="none"/></svg></button>
+    <button class="soc" data-share="tg" aria-label="Telegram" title="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 4.4 3.4 11.1c-.8.3-.8.8.1 1.1l4.2 1.4 1.6 5c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2-1.9 4.2 3.1c.6.4 1.1.2 1.2-.6l2.1-13.1c.1-.9-.4-1.3-1.1-1zM9.7 13.6l8.2-5.2-6.4 5.8-.2 2.3-1.6-2.9z"/></svg></button>
+    <button class="soc" data-share="vb" aria-label="Viber" title="Viber"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.4" y="3.4" width="17.2" height="17.2" rx="4.6"/><path d="M9.2 7.9c-.3 0-.6.1-.8.3-.4.4-.7.9-.7 1.5 0 2.8 2.3 5.1 5.1 5.1.6 0 1.1-.3 1.5-.7.2-.2.3-.5.3-.8l-1.6-.7c-.2-.1-.4 0-.6.1l-.5.5c-.1.1-.3.1-.4 0-.8-.5-1.5-1.2-2-2-.1-.1-.1-.3 0-.4l.5-.5c.1-.2.2-.4.1-.6l-.7-1.6z" fill="currentColor" stroke="none"/></svg></button>
+    <button class="soc" data-share="x" aria-label="X (Twitter)" title="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.2 4h3.3l4.8 6.4L17.6 4h2.3l-6.4 7.5L20 20h-3.3l-5.2-7-5.5 7H3.6l6.9-8.1L4.2 4z"/></svg></button>
+    <button class="soc" data-share="ml" aria-label="E-pošta" title="E-pošta"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.4" y="5.4" width="17.2" height="13.2" rx="3"/><path d="M4.6 7.2l7.4 5.8 7.4-5.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="soc" data-share="cp" aria-label="Link kopieren" title="Link kopieren"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="8.6" y="8.6" width="10.8" height="10.8" rx="2.6"/><path d="M15.4 5.6H7.6a2 2 0 0 0-2 2v7.8" stroke-linecap="round"/></svg></button>
+  </div>
+  <p class="copied" id="copied" aria-live="polite"></p>
+
+  <h2>Häufige Fragen</h2>
+  <details><summary>Warum ist sie nicht bei Google Play?</summary><p>Die App ist in der Endphase. Die Testversion ist direkt verfügbar, damit du sie vor der Veröffentlichung ausprobieren kannst.</p></details>
+  <details><summary>Ist sie sicher?</summary><p>Kein Konto, keine Werbung und keine Daten an einen Server. Alles, was du erfasst, bleibt auf deinem Telefon.</p></details>
+  <details><summary>Was passiert nach sieben Tagen?</summary><p>Die App zeigt, dass die Testphase abgelaufen ist. Das Tagebuch bleibt; zum Weitermachen schreibe an dihaj.zdravo@gmail.com.</p></details>
+
+  <p class="seo">Atme gesund ist eine App zum Rauchstopp (opuščanje kajenja) in Slowenisch, Englisch, Kroatisch, Italienisch und Deutsch. Sie hilft dir, schrittweise aufzuhören — eine Zigarette weniger pro Tag — ohne Urteil, Werbung oder Abos. Alles bleibt auf deinem Telefon (Android 8.0+).</p>
+
+  <footer>
+    <span>© 2026 Atme gesund · gemacht in Slowenien</span>
+    <span><a id="mailLinkFooter" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." target="_blank" rel="noopener" data-mailto="mailto:dihaj.zdravo@gmail.com?subject=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&amp;body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." data-goatcounter-click="email-noga-de" data-goatcounter-title="Klick: E-Mail Fußzeile (DE)" title="E-Mail öffnen und die Nachricht an dihaj.zdravo@gmail.com senden">dihaj.zdravo@gmail.com</a></span>
+  </footer>
+  <p class="mailFallback footerMail" id="mailFallbackFooter">Wenn es sich nicht öffnet:<span class="mailActions"><button type="button" class="mailCopy" id="mailCopyFooter" data-copied="Adresse kopiert ✓">Adresse kopieren</button><a class="gmailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." target="_blank" rel="noopener">In Gmail öffnen</a></span></p>
+</div>
+
+<script>
+const PAGE_URL = "https://dihaj-zdravo.netlify.app/de/";
+const L = {"shareMsg":"Atme gesund (7 Tage) — 7 Tage kostenlos, keine Karte, kein Abo.","copied":"Link kopiert.","ttHint":"Link kopiert — füge ihn in TikTok ein.","igHint":"Link kopiert — füge ihn in Instagram ein."};
+// ---- deljenje povezave ----
+function povezava(){ return PAGE_URL; }
+function besedilo(){ return L.shareMsg; }
+function enc(s){ return encodeURIComponent(s); }
+let casSporocila = null;
+function pokazi(sp){
+  const el=document.getElementById("copied"); if(!el) return;
+  el.textContent=sp;
+  clearTimeout(casSporocila);
+  casSporocila=setTimeout(()=>{ el.textContent=""; }, 3400);
+}
+async function kopiraj(sp){
+  const u=povezava(); let ok=false;
+  try{ await navigator.clipboard.writeText(u); ok=true; }catch(e){}
+  if(!ok){
+    try{
+      const ta=document.createElement("textarea");
+      ta.value=u; ta.setAttribute("readonly","");
+      ta.style.position="fixed"; ta.style.top="-1000px";
+      document.body.appendChild(ta); ta.select();
+      ok=document.execCommand("copy"); ta.remove();
+    }catch(e){ ok=false; }
+  }
+  pokazi(ok ? sp : u);
+}
+const KANALI={
+  fb:()=>window.open("https://www.facebook.com/sharer/sharer.php?u="+enc(povezava()),"_blank","noopener"),
+  tt:()=>kopiraj(L.ttHint),
+  ig:()=>kopiraj(L.igHint),
+  wa:()=>window.open("https://wa.me/?text="+enc(besedilo()+" "+povezava()),"_blank","noopener"),
+  tg:()=>window.open("https://t.me/share/url?url="+enc(povezava())+"&text="+enc(besedilo()),"_blank","noopener"),
+  vb:()=>{ location.href="viber://forward?text="+enc(besedilo()+" "+povezava()); },
+  x:()=>window.open("https://twitter.com/intent/tweet?url="+enc(povezava())+"&text="+enc(besedilo()),"_blank","noopener"),
+  ml:()=>{ location.href="mailto:?subject="+enc(besedilo())+"&body="+enc(besedilo()+"\n\n"+povezava()); },
+  cp:()=>kopiraj(L.copied)
+};
+document.querySelectorAll("[data-share]").forEach(b=>{
+  b.addEventListener("click",()=>{ const f=KANALI[b.dataset.share]; if(f) f(); });
+});
+</script>
+
+<div class="mailPick" id="mailPick" hidden>
+  <div class="mailPickBox" role="dialog" aria-modal="true" aria-labelledby="mailPickT">
+    <div id="mailPickMain">
+      <b id="mailPickT">Wähle dein E-Mail-Konto</b>
+      <p>Dein Postfach öffnet sich mit fertiger Nachricht. Geräte-ID eintragen und senden.</p>
+      <div class="mailPickList">
+        <a data-provider="gmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." target="_blank" rel="noopener">Gmail</a>
+        <a data-provider="outlook" href="https://outlook.live.com/mail/0/deeplink/compose?to=dihaj.zdravo@gmail.com&subject=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." target="_blank" rel="noopener">Outlook / Hotmail</a>
+        <a data-provider="yahoo" href="https://compose.mail.yahoo.com/?to=dihaj.zdravo@gmail.com&subject=Atme%20gesund%20%E2%80%94%20Aktivierungsanfrage&body=Hallo%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20die%20App%20Atme%20gesund%20aktivieren.%0D%0A%0D%0AMeine%20Ger%C3%A4te-ID%20ist%3A%20%28hier%20von%20deinem%20App-Bildschirm%20%C3%BCbernehmen%20und%20senden%29%0D%0A%0D%0A%0D%0ADanke." target="_blank" rel="noopener">Yahoo Mail</a>
+        <a class="other" data-provider="other" href="#" role="button">Anderes Programm — Adresse kopieren</a>
+      </div>
+      <button type="button" class="mailPickClose">Schließen</button>
+    </div>
+    <div class="mailPickDone" id="mailPickDone" hidden>
+      <b>Adresse kopiert</b>
+      <p><span class="adr">dihaj.zdravo@gmail.com</span><br>Füge sie in dein E-Mail-Programm ein (Gmail, Outlook, was du nutzt) und sende.</p>
+      <button type="button" class="mailPickClose">Schließen</button>
+    </div>
+  </div>
+</div>
+<script>
+/* E-poštni gumbi: na telefonu odpre poštno aplikacijo, na računalniku ponudi izbiro
+   ponudnika (Gmail, Outlook/Hotmail, Yahoo) ali drug program. Pod gumbi sta rezervi:
+   kopiranje naslova in Gmail v brskalniku. */
+(function(){
+  var TO="dihaj.zdravo@gmail.com";
+  var pari=[["mailLink","mailFallback"],["mailLinkFooter","mailFallbackFooter"]];
+  var dlg=document.getElementById("mailPick");
+  var mobil=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent||"");
+
+  pari.forEach(function(p){
+    var a=document.getElementById(p[0]), fb=document.getElementById(p[1]);
+    if(!a||!fb) return;
+    var cp=fb.querySelector(".mailCopy"), cas=null;
+    var mt=a.getAttribute("data-mailto");
+    if(mobil && mt){ a.setAttribute("href", mt); a.removeAttribute("target"); a.removeAttribute("rel"); }
+
+    a.addEventListener("click",function(ev){
+      if(!mobil && dlg){ ev.preventDefault(); if(typeof ponastavi==="function") ponastavi(); dlg.hidden=false; return; }
+      clearTimeout(cas);
+      cas=setTimeout(function(){
+        if(document.hidden) return;
+        if(document.hasFocus && !document.hasFocus()) return;
+        fb.classList.add("mailAltPulse");
+        setTimeout(function(){ fb.classList.remove("mailAltPulse"); },2600);
+      },1200);
+    });
+
+    if(!cp) return;
+    var osnovno=cp.textContent;
+    cp.addEventListener("click",function(){
+      var koncano=cp.getAttribute("data-copied")||osnovno;
+      function potrdi(){ cp.textContent=koncano; setTimeout(function(){ cp.textContent=osnovno; },2600); }
+      if(navigator.clipboard&&navigator.clipboard.writeText){
+        navigator.clipboard.writeText(TO).then(potrdi,function(){});
+      }else{
+        try{
+          var t=document.createElement("textarea");
+          t.value=TO; t.setAttribute("readonly",""); t.style.position="fixed"; t.style.top="-1000px";
+          document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); potrdi();
+        }catch(e){}
+      }
+    });
+  });
+
+  if(!dlg) return;
+  function zapri(){ dlg.hidden=true; if(typeof ponastavi==="function") ponastavi(); }
+  dlg.addEventListener("click",function(ev){
+    if(ev.target===dlg || ev.target.closest(".mailPickClose")) zapri();
+  });
+  document.addEventListener("keydown",function(ev){ if(ev.key==="Escape") zapri(); });
+  var glavni=document.getElementById("mailPickMain"), koncni=document.getElementById("mailPickDone");
+  function kopirajNaslov(){
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(TO).catch(function(){});
+    }else{
+      try{
+        var t=document.createElement("textarea");
+        t.value=TO; t.setAttribute("readonly",""); t.style.position="fixed"; t.style.top="-1000px";
+        document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove();
+      }catch(e){}
+    }
+    if(glavni&&koncni){ glavni.hidden=true; koncni.hidden=false; }
+  }
+  dlg.querySelectorAll("a[data-provider]").forEach(function(a){
+    a.addEventListener("click",function(ev){
+      if(a.getAttribute("data-provider")==="other"){ ev.preventDefault(); kopirajNaslov(); return; }
+      setTimeout(zapri,120);
+    });
+  });
+  function ponastavi(){ if(glavni&&koncni){ glavni.hidden=false; koncni.hidden=true; } }
+})();
+</script>
+<script data-goatcounter="https://dihaj.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

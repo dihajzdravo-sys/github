@@ -93,10 +93,20 @@
   h1{font-size:clamp(30px,7vw,46px);line-height:1.08;margin:34px 0 10px;letter-spacing:-.5px;color:#fff}
   h1 em{font-style:normal;color:var(--acc)}
   .lead{color:var(--dim);font-size:18px;margin:0 0 22px;max-width:56ch}
-  .cta{display:inline-flex;align-items:center;gap:12px;background:var(--mint);color:#fff;
+  
+  /* --- NOVO: Postavitev gumbov --- */
+  .cta-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .cta{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--mint);color:#fff;
     font-weight:700;font-size:18px;padding:16px 26px;border-radius:16px;text-decoration:none;
-    box-shadow:0 10px 30px rgba(0,0,0,.28)}
+    box-shadow:0 10px 30px rgba(0,0,0,.28);flex:1 1 300px;text-align:center;}
   .cta:hover{background:#248A33}
+  /* ----------------------------- */
+
   .small{color:var(--low);font-size:13px;margin:12px 0 0}
   .note{margin-top:18px;border:1px solid rgba(255,255,255,.30);background:rgba(255,255,255,.08);
     border-radius:14px;padding:14px 16px;color:var(--dim);font-size:14px}
@@ -226,10 +236,16 @@
   <h1><em>7 dni brezplačno.</em><br><span>Brez kartice in brez naročnine.</span></h1>
   <p class="lead">Preizkusi Dihaj zdravo v celoti: beleženje cigaret, opozorila ob tvojih urah, cilj −1 na dan in nočni mir. Po sedmih dneh se preizkus zaključi — brez drobnega tiska.</p>
 
-  <a class="cta" href="DihajZdravo-1.0-poskusna-7dni.apk" download data-goatcounter-click="prenos-apk-sl" data-goatcounter-title="Klik: prenos APK (SL)">
-    <span>⬇</span><span>Prenesi aplikacijo (APK)</span>
-  </a>
-  <p class="small">Android 8.0 ali novejši · 2,4 MB · brezplačno</p>
+  <!-- NOVO: Oba gumba v ovitku -->
+  <div class="cta-wrapper">
+    <a class="cta" href="DihajZdravo-1.0-poskusna-7dni.apk" download data-goatcounter-click="prenos-apk-sl" data-goatcounter-title="Klik: prenos APK z registracijo (SL)">
+      <span>⬇</span><span>Prenesi brezplačno aplikacijo z registracijo</span>
+    </a>
+    <a class="cta" href="Brez-registracije.apk" download data-goatcounter-click="prenos-apk-brez-reg-sl" data-goatcounter-title="Klik: prenos APK brez registracije (SL)">
+      <span>⬇</span><span>Prenesi brezplačno aplikacijo brez registracije</span>
+    </a>
+  </div>
+  <p class="small">Android 8.0 ali novejši · brez kartice in naročnine</p>
 
   <div class="install" id="namestitev">
     <h2>Kako namestiti (Android)</h2>

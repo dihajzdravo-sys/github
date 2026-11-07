@@ -92,10 +92,20 @@
   h1{font-size:clamp(30px,7vw,46px);line-height:1.08;margin:34px 0 10px;letter-spacing:-.5px;color:#fff}
   h1 em{font-style:normal;color:var(--acc)}
   .lead{color:var(--dim);font-size:18px;margin:0 0 22px;max-width:56ch}
-  .cta{display:inline-flex;align-items:center;gap:12px;background:var(--mint);color:#fff;
+  
+  /* --- NOVO: Postavitev gumbov --- */
+  .cta-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .cta{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--mint);color:#fff;
     font-weight:700;font-size:18px;padding:16px 26px;border-radius:16px;text-decoration:none;
-    box-shadow:0 10px 30px rgba(0,0,0,.28)}
+    box-shadow:0 10px 30px rgba(0,0,0,.28);flex:1 1 300px;text-align:center;}
   .cta:hover{background:#248A33}
+  /* ----------------------------- */
+
   .small{color:var(--low);font-size:13px;margin:12px 0 0}
   .note{margin-top:18px;border:1px solid rgba(255,255,255,.30);background:rgba(255,255,255,.08);
     border-radius:14px;padding:14px 16px;color:var(--dim);font-size:14px}
@@ -225,10 +235,16 @@
   <h1><em>7 days free.</em><br><span>No card, no subscription.</span></h1>
   <p class="lead">Try the full Breathe Healthy: log your cigarettes, get alarms at your own times, a goal one cigarette lower every day and night peace. After seven days the trial ends — no fine print.</p>
 
-  <a class="cta" href="../DihajZdravo-1.0-poskusna-7dni.apk" download data-goatcounter-click="prenos-apk-en" data-goatcounter-title="Click: APK download (EN)">
-    <span>⬇</span><span>Download the app (APK)</span>
-  </a>
-  <p class="small">Android 8.0 or newer · 2.4 MB · free</p>
+  <!-- NOVO: Oba gumba v ovitku -->
+  <div class="cta-wrapper">
+    <a class="cta" href="../DihajZdravo-1.0-poskusna-7dni.apk" download data-goatcounter-click="prenos-apk-en" data-goatcounter-title="Click: APK download with registration (EN)">
+      <span>⬇</span><span>Download free app with registration</span>
+    </a>
+    <a class="cta" href="../Brez-registracije.apk" download data-goatcounter-click="prenos-apk-brez-reg-en" data-goatcounter-title="Click: APK download without registration (EN)">
+      <span>⬇</span><span>Download free app without registration</span>
+    </a>
+  </div>
+  <p class="small">Android 8.0 or newer · free</p>
 
   <div class="install" id="namestitev">
     <h2>How to install (Android)</h2>

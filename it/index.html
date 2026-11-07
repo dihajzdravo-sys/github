@@ -92,10 +92,20 @@
   h1{font-size:clamp(30px,7vw,46px);line-height:1.08;margin:34px 0 10px;letter-spacing:-.5px;color:#fff}
   h1 em{font-style:normal;color:var(--acc)}
   .lead{color:var(--dim);font-size:18px;margin:0 0 22px;max-width:56ch}
-  .cta{display:inline-flex;align-items:center;gap:12px;background:var(--mint);color:#fff;
+  
+  /* --- NOVO: Postavitev gumbov --- */
+  .cta-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .cta{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--mint);color:#fff;
     font-weight:700;font-size:18px;padding:16px 26px;border-radius:16px;text-decoration:none;
-    box-shadow:0 10px 30px rgba(0,0,0,.28)}
+    box-shadow:0 10px 30px rgba(0,0,0,.28);flex:1 1 300px;text-align:center;}
   .cta:hover{background:#248A33}
+  /* ----------------------------- */
+
   .small{color:var(--low);font-size:13px;margin:12px 0 0}
   .note{margin-top:18px;border:1px solid rgba(255,255,255,.30);background:rgba(255,255,255,.08);
     border-radius:14px;padding:14px 16px;color:var(--dim);font-size:14px}
@@ -225,10 +235,16 @@
   <h1><em>7 giorni gratis.</em><br><span>Nessuna carta, nessun abbonamento.</span></h1>
   <p class="lead">Prova Respira sano per intero: registra le sigarette, ricevi avvisi ai tuoi orari, obiettivo −1 al giorno e pace notturna. Dopo sette giorni la prova finisce — senza clausole nascoste.</p>
 
-  <a class="cta" href="../DihajZdravo-1.0-poskusna-7dni.apk" download data-goatcounter-click="prenos-apk-it" data-goatcounter-title="Clic: download APK (IT)">
-    <span>⬇</span><span>Scarica l'app (APK)</span>
-  </a>
-  <p class="small">Android 8.0 o successivo · 2,4 MB · gratis</p>
+  <!-- NOVO: Oba gumba v ovitku -->
+  <div class="cta-wrapper">
+    <a class="cta" href="../DihajZdravo-1.0-poskusna-7dni.apk" download data-goatcounter-click="prenos-apk-it" data-goatcounter-title="Clic: download APK con registrazione (IT)">
+      <span>⬇</span><span>Scarica l'app gratuita con registrazione</span>
+    </a>
+    <a class="cta" href="../Brez-registracije.apk" download data-goatcounter-click="prenos-apk-brez-reg-it" data-goatcounter-title="Clic: download APK senza registrazione (IT)">
+      <span>⬇</span><span>Scarica l'app gratuita senza registrazione</span>
+    </a>
+  </div>
+  <p class="small">Android 8.0 o successivo · gratis</p>
 
   <div class="install" id="namestitev">
     <h2>Come installare (Android)</h2>
@@ -249,9 +265,9 @@
     <span class="tag2">Ordine via e-mail</span>
     <b>Puoi ordinare l'app via e-mail</b>
     <p>Non riesci a scaricare il file? Scrivici — ti inviamo l'app e le istruzioni. Per l'attivazione inviaci solo l'<b>ID dispositivo</b> che l'app mostra al primo avvio — chiave e codice di accesso te li inviamo noi.</p>
-    <a id="mailLink" data-goatcounter-click="email-it" data-goatcounter-title="Clic: e-mail (IT)" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener" data-mailto="mailto:dihaj.zdravo@gmail.com?subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&amp;body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." title="Apri la tua e-mail e invia il messaggio a dihaj.zdravo@gmail.com">dihaj.zdravo@gmail.com</a>
+    <a id="mailLink" data-goatcounter-click="email-it" data-goatcounter-title="Clic: e-mail (IT)" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener" data-mailto="mailto:dihaj.zdravo@gmail.com?subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&amp;body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." title="Apri la tua e-mail e invia il messaggio a dihaj.zdravo@gmail.com">dihaj.zdravo@gmail.com</a>
     <p class="mailHint">Il clic apre la tua e-mail (Gmail, Outlook, Hotmail …) con il messaggio pronto.</p>
-    <p class="mailFallback" id="mailFallback">Se non si apre:<span class="mailActions"><button type="button" class="mailCopy" id="mailCopy" data-copied="Indirizzo copiato ✓">Copia l'indirizzo</button><a class="gmailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Apri in Gmail</a></span></p>
+    <p class="mailFallback" id="mailFallback">Se non si apre:<span class="mailActions"><button type="button" class="mailCopy" id="mailCopy" data-copied="Indirizzo copiato ✓">Copia l'indirizzo</button><a class="gmailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Apri in Gmail</a></span></p>
   </div>
 
   <div class="note">L'app non è ancora su Google Play, quindi la scarichi come file. Durante l'installazione Android chiede il permesso di installare da origini sconosciute — consentilo per il browser con cui hai scaricato e l'installazione continua. Nessun account, i dati non lasciano il telefono.</div>
@@ -300,9 +316,9 @@
 
   <footer>
     <span>© 2026 Respira sano · fatto in Slovenia</span>
-    <span><a id="mailLinkFooter" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener" data-mailto="mailto:dihaj.zdravo@gmail.com?subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&amp;body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." data-goatcounter-click="email-noga-it" data-goatcounter-title="Clic: e-mail piè di pagina (IT)" title="Apri la tua e-mail e invia il messaggio a dihaj.zdravo@gmail.com">dihaj.zdravo@gmail.com</a></span>
+    <span><a id="mailLinkFooter" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener" data-mailto="mailto:dihaj.zdravo@gmail.com?subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&amp;body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." data-goatcounter-click="email-noga-it" data-goatcounter-title="Clic: e-mail piè di pagina (IT)" title="Apri la tua e-mail e invia il messaggio a dihaj.zdravo@gmail.com">dihaj.zdravo@gmail.com</a></span>
   </footer>
-  <p class="mailFallback footerMail" id="mailFallbackFooter">Se non si apre:<span class="mailActions"><button type="button" class="mailCopy" id="mailCopyFooter" data-copied="Indirizzo copiato ✓">Copia l'indirizzo</button><a class="gmailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Apri in Gmail</a></span></p>
+  <p class="mailFallback footerMail" id="mailFallbackFooter">Se non si apre:<span class="mailActions"><button type="button" class="mailCopy" id="mailCopyFooter" data-copied="Indirizzo copiato ✓">Copia l'indirizzo</button><a class="gmailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Apri in Gmail</a></span></p>
 </div>
 
 <script>
@@ -355,9 +371,9 @@ document.querySelectorAll("[data-share]").forEach(b=>{
       <b id="mailPickT">Scegli la tua e-mail</b>
       <p>Si apre la tua posta con il messaggio pronto. Inserisci l'ID dispositivo e invia.</p>
       <div class="mailPickList">
-        <a data-provider="gmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Gmail</a>
-        <a data-provider="outlook" href="https://outlook.live.com/mail/0/deeplink/compose?to=dihaj.zdravo@gmail.com&subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Outlook / Hotmail</a>
-        <a data-provider="yahoo" href="https://compose.mail.yahoo.com/?to=dihaj.zdravo@gmail.com&subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0Avorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Yahoo Mail</a>
+        <a data-provider="gmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=dihaj.zdravo@gmail.com&su=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Gmail</a>
+        <a data-provider="outlook" href="https://outlook.live.com/mail/0/deeplink/compose?to=dihaj.zdravo@gmail.com&subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Outlook / Hotmail</a>
+        <a data-provider="yahoo" href="https://compose.mail.yahoo.com/?to=dihaj.zdravo@gmail.com&subject=Respira%20sano%20%E2%80%94%20richiesta%20di%20attivazione&body=Salve%2C%0D%0A%0D%0AVorrei%20attivare%20l%27app%20Respira%20sano.%0D%0A%0D%0AIl%20mio%20ID%20dispositivo%20%C3%A8%3A%20%28copialo%20qui%20dalla%20schermata%20dell%27app%20e%20invialo%29%0D%0A%0D%0A%0D%0AGrazie." target="_blank" rel="noopener">Yahoo Mail</a>
         <a class="other" data-provider="other" href="#" role="button">Altro programma — copia l'indirizzo</a>
       </div>
       <button type="button" class="mailPickClose">Chiudi</button>

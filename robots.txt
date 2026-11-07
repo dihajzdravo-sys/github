@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dihaj-zdravo.netlify.app/sitemap.xml
+Sitemap: https://dihajzdravo-sys.github.io/github/sitemap.xml

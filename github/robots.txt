@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dihajzdravo-sys.github.io/github/sitemap.xml

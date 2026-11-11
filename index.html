@@ -56,7 +56,7 @@
   "description": "Slovenska aplikacija za opuščanje kajenja: beleženje cigaret z razlogi, opozorila ob tvojih urah, cilj −1 na dan in nočni mir. Brezplačna 7-dnevna preizkusna različica za Android — brez kartice in naročnine.",
   "url": "https://dihajzdravo-sys.github.io/github/",
   "image": "https://dihajzdravo-sys.github.io/github/og-slika.jpg",
-  "downloadUrl": "https://dihajzdravo-sys.github.io/github/PoskusnaR-1.0.3.apk",
+  "downloadUrl": "https://dihajzdravo-sys.github.io/github/PoskusnaR-1.0.4.apk",
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -238,14 +238,14 @@
 
   <!-- NOVO: Oba gumba v ovitku -->
   <div class="cta-wrapper">
-    <a class="cta" href="PoskusnaR-1.0.3.apk" download data-goatcounter-click="prenos-apk-sl" data-goatcounter-title="Klik: prenos APK z registracijo (SL)">
+    <a class="cta" href="PoskusnaR-1.0.4.apk" download data-goatcounter-click="prenos-apk-sl" data-goatcounter-title="Klik: prenos APK z registracijo (SL)">
       <span>⬇</span><span>Prenesi brezplačno aplikacijo z registracijo</span>
     </a>
-    <a class="cta" href="PoskusnaB-1.0.3.apk" download data-goatcounter-click="prenos-apk-brez-reg-sl" data-goatcounter-title="Klik: prenos APK brez registracije (SL)">
+    <a class="cta" href="PoskusnaB-1.0.4.apk" download data-goatcounter-click="prenos-apk-brez-reg-sl" data-goatcounter-title="Klik: prenos APK brez registracije (SL)">
       <span>⬇</span><span>Prenesi brezplačno aplikacijo brez registracije</span>
     </a>
   </div>
-  <p class="small">Verzija 1.0.3 (7 dni) · PoskusnaR (z registracijo) — 2,3 MB · PoskusnaB (brez registracije) — 2,3 MB</p>
+  <p class="small">Verzija 1.0.4 (7 dni) · PoskusnaR (z registracijo) — 2,3 MB · PoskusnaB (brez registracije) — 2,3 MB</p>
   <p class="small">Android 8.0 ali novejši · brez kartice in naročnine</p>
 
   <div class="install" id="namestitev">
@@ -401,8 +401,6 @@ document.querySelectorAll("[data-share]").forEach(b=>{
     var a=document.getElementById(p[0]), fb=document.getElementById(p[1]);
     if(!a||!fb) return;
     var cp=fb.querySelector(".mailCopy"), cas=null;
-    var mt=a.getAttribute("data-mailto");
-    if(mobil && mt){ a.setAttribute("href", mt); a.removeAttribute("target"); a.removeAttribute("rel"); }
 
     a.addEventListener("click",function(ev){
       if(!mobil && dlg){ ev.preventDefault(); if(typeof ponastavi==="function") ponastavi(); dlg.hidden=false; return; }
